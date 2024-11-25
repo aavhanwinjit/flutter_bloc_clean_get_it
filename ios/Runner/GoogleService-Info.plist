@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>248037725510-6md20k2naplqlk1807thtmr8g8hrcjn1.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.248037725510-6md20k2naplqlk1807thtmr8g8hrcjn1</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>248037725510-0bfq6kldahhvjal2rm9jo1to63n34klo.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCflmllUeM-l5Tnvivz3JntWzjfRvkWfjA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>248037725510</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.hoteljobber.HoteljobberEmployeer</string>
+	<key>PROJECT_ID</key>
+	<string>hoteljobbercandidate</string>
+	<key>STORAGE_BUCKET</key>
+	<string>hoteljobbercandidate.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:248037725510:ios:94be8d3c4cbbafded60147</string>
+	<key>DATABASE_URL</key>
+	<string>https://hoteljobbercandidate.firebaseio.com</string>
+</dict>
+</plist>

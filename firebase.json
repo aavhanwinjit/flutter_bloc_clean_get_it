@@ -1,0 +1,30 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "hoteljobbercandidate",
+          "appId": "1:248037725510:android:e7d71453f7161716d60147",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "hoteljobbercandidate",
+          "appId": "1:248037725510:ios:94be8d3c4cbbafded60147",
+          "uploadDebugSymbols": true,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "hoteljobbercandidate",
+          "configurations": {
+            "android": "1:248037725510:android:e7d71453f7161716d60147",
+            "ios": "1:248037725510:ios:94be8d3c4cbbafded60147"
+          }
+        }
+      }
+    }
+  }
+}
