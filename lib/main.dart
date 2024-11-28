@@ -46,8 +46,6 @@ Future<void> main() async {
   configureDependencies();
   await getIt.allReady();
 
-  // await GetSecureStorage.init();
-
   if (kReleaseMode) {
     debugPrint = (String? message, {int? wrapWidth}) {};
   }
