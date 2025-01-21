@@ -75,8 +75,8 @@ Resolve the errors and warnings that are shown in the application.
 
 ### Libraries and tools used
 
-- GetX - State management
-    https://pub.dev/packages/get
+- Bloc - State management
+    https://bloclibrary.dev/getting-started/
 - cached_network_image - For storing internet image into cache
     https://pub.dev/packages/cached_network_image
 
@@ -87,3 +87,31 @@ If you have any problems or questions, go to our Discord channel, where we will 
 # Build Runner auto generation command
 
 dart run build_runner build --delete-conflicting-outputs
+
+### Todos
+
+- root detection (safe device) // done
+- screenshot disable
+- api cache (dio cache interceptor)
+- api request response local saving
+- api retry logic
+- cancel api calls (cancel tokens)
+- hive local database
+- sql local database
+- deeplinking
+- bloc pattern // done
+- flutter dynamic icons (flutter_dynamic_icon_plus: ^1.2.1)
+- flutter awesome local notifications
+- sockets (is it required in this project ?)
+- proper payment integration (razorpay)
+- devtools
+- parallel api cals
+- api queing
+- isolate memory management
+- flavors (android and ios)
+- test cases
+- design pattern
+- easy localization library
+- ssl pinning
+- loader_overlay: ^4.0.3
+- app update dialog box
