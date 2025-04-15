@@ -2,7 +2,7 @@ name: hoteljobber_employer
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 version: 43.0.0+10211
 
@@ -101,16 +101,6 @@ flutter:
   assets:
     - assets/
     - assets/images/
-    - assets/images/lottie/
-    - assets/images/gifs/
-    - assets/images/background/
-    - assets/images/logos/
-    - assets/images/splash/
-    - assets/images/icons/
-    - assets/images/launcher_icon/
-    - assets/images/dashboard_icons/
-    - assets/images/job_details_icons/
-    - assets/images/default_profile_images/
     - assets/lottie/
     - .env
 
