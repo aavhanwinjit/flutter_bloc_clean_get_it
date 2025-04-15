@@ -90,28 +90,56 @@ dart run build_runner build --delete-conflicting-outputs
 
 ### Todos
 
-- root detection (safe device) // done
-- screenshot disable
-- api cache (dio cache interceptor)
-- api request response local saving
-- api retry logic
-- cancel api calls (cancel tokens)
-- hive local database
-- sql local database
-- deeplinking
-- bloc pattern // done
-- flutter dynamic icons (flutter_dynamic_icon_plus: ^1.2.1)
-- flutter awesome local notifications
+- clean architecture setup
+- design pattern (we use mostly singleton design pattern using "get_it" and "injectable" libraries)
+- BLOC state management (compulsary)
+- encryption logic (seperate for .Net and Java projects. To be implemented in encryption interceptro)
+- root detection setup (safe device) // done
+- flavors setup (android and ios)
+- constant files for assets, strings, colors, enums etc
+- themeing setup
+- localization setup (easy localization or any other library)
+- routing (navigation) mechanism setup (auto_route / go_router library)
+- ssl pinning setup
+- api calling logic (using "dio" and "retrofit". Make one sample api call so that same can be replicated)
+- api caching logic (dio cache interceptor)
+- api request response locally saving (Save request response of each api in the device's local database, in a text file, so that it can be used for testing purposes. This should be turned off while release / production build)
+- api retry logic (retry interceptor)
+- api session refresh logic (session refresh interceptor)
+- cancel api calls logic (cancel tokens implementation, if required)
+- parallel api calls logic (if required)
+- api queing logic
+- internet_connection_checker_plus (for checking the internet connectivity)
+- hive local database base clases
+- sql local database base clases
+- secure local storage base clases (for storing values in encrypted format)
+- app update dialog box and logic setup (mostly done on the initial api itself)
+- deeplinking setup
+- .env files setup (what all basic variables to be defined in the enviornment variables and where / how to use them)
+- screenshot enable/disable logic setup
+- firebase setup
+- flutter dynamic icons (flutter_dynamic_icon_plus: ^1.2.1) // for setting up the launcher icons
+- flutter_native_splash (for setting up the native splash screen)
+- flutter awesome local notifications // for push notifications
+- flutter_screenutil (for using responsive height and width throughout the application)
+- using shimmers for showing screen loading (this logice needs to be setup, so that it can be replicated / used wherever required)
+- isolates logic implementation
+- test cases logic implementation pattern
+- common widgets (components) like text-fields, dropdowns, date-pickers
+- proper "README" file containing all the required items documented such as:
+  - system requirement
+  - flutter, dart, gradle, kotlin, android sdk version required
+  - figma design link
+  - git workflow which is being used
+  - git commit stratergy
+  - commands used for generating code / building builds
+  - architecture documentation
+  - navigation documentation
+  - project FSD or other documents link
+
 - sockets (is it required in this project ?)
-- proper payment integration (razorpay)
-- devtools
-- parallel api cals
-- api queing
+- proper payment integration (razorpay) // if required
+- devtools (this is a testing tool. nothing to do with implementation)
 - isolate memory management
-- flavors (android and ios)
 - test cases
-- design pattern
-- easy localization library
-- ssl pinning
 - loader_overlay: ^4.0.3
-- app update dialog box

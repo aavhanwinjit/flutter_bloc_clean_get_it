@@ -1,0 +1,203 @@
+{
+  "project_info": {
+    "project_number": "248037725510",
+    "firebase_url": "https://hoteljobbercandidate.firebaseio.com",
+    "project_id": "hoteljobbercandidate",
+    "storage_bucket": "hoteljobbercandidate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248037725510:android:e7d71453f7161716d60147",
+        "android_client_info": {
+          "package_name": "com.hoteljobber.HoteljobberApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "248037725510-0bfq6kldahhvjal2rm9jo1to63n34klo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hoteljobber.HoteljobberApp",
+            "certificate_hash": "ed90ed1c690e8ed81874f877b831303cec61004e"
+          }
+        },
+        {
+          "client_id": "248037725510-ttlmfo4jdjvfb2qirrp6kj4vg0i4t5ch.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hoteljobber.HoteljobberApp",
+            "certificate_hash": "f46c146bb852613f5b84d3c1ddf63363f3fc6ad3"
+          }
+        },
+        {
+          "client_id": "248037725510-v725gr73lgum1q2kebibkod9fj8cp4jp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hoteljobber.HoteljobberApp",
+            "certificate_hash": "7b4afb8e5fa3b0eaf9e9cdaf5e4970a8f23ecfcd"
+          }
+        },
+        {
+          "client_id": "248037725510-irlfsocekfg2f9dbuqd1dsrhtv7gukld.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmK-C_5upDB3vSuLN5gRbivxssMFgegbE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248037725510-irlfsocekfg2f9dbuqd1dsrhtv7gukld.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "248037725510-3a1oha8fc5k1n2kd278v95pjs027flmk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hoteljobber.candidateApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248037725510:android:aeba6ba1168591ced60147",
+        "android_client_info": {
+          "package_name": "com.hoteljobber.HoteljobberApp.uat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "248037725510-irlfsocekfg2f9dbuqd1dsrhtv7gukld.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmK-C_5upDB3vSuLN5gRbivxssMFgegbE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248037725510-irlfsocekfg2f9dbuqd1dsrhtv7gukld.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "248037725510-3a1oha8fc5k1n2kd278v95pjs027flmk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hoteljobber.candidateApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248037725510:android:e26eac5697620a30",
+        "android_client_info": {
+          "package_name": "com.hoteljobber.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "248037725510-irlfsocekfg2f9dbuqd1dsrhtv7gukld.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmK-C_5upDB3vSuLN5gRbivxssMFgegbE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248037725510-irlfsocekfg2f9dbuqd1dsrhtv7gukld.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "248037725510-3a1oha8fc5k1n2kd278v95pjs027flmk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hoteljobber.candidateApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248037725510:android:40cbbd59d10ea875",
+        "android_client_info": {
+          "package_name": "com.hoteljobber.candidate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "248037725510-0upnj6f4t0h04vfg95q6lmuu1o791b07.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hoteljobber.candidate",
+            "certificate_hash": "6e8132c235b22883435fdefec48cc67c0d97b1f7"
+          }
+        },
+        {
+          "client_id": "248037725510-gqelmvjm2uuan18cfhs9r42rte4mlg9s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hoteljobber.candidate",
+            "certificate_hash": "7b4afb8e5fa3b0eaf9e9cdaf5e4970a8f23ecfcd"
+          }
+        },
+        {
+          "client_id": "248037725510-kbjkjeoida62ndhbu6fnfv8gpdtmoikr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hoteljobber.candidate",
+            "certificate_hash": "c3fe309a34bc3f3b9f4ac70609d86b1547761a36"
+          }
+        },
+        {
+          "client_id": "248037725510-irlfsocekfg2f9dbuqd1dsrhtv7gukld.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmK-C_5upDB3vSuLN5gRbivxssMFgegbE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248037725510-irlfsocekfg2f9dbuqd1dsrhtv7gukld.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "248037725510-3a1oha8fc5k1n2kd278v95pjs027flmk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hoteljobber.candidateApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

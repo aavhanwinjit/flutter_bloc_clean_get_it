@@ -7,7 +7,6 @@ import 'package:hoteljobber_employer/core/network/api_client.dart';
 import 'package:hoteljobber_employer/core/network/api_endpoints.dart';
 import 'package:hoteljobber_employer/core/network/services/api_service.dart';
 import 'package:hoteljobber_employer/models/app_config/app_config.dart';
-import 'package:hoteljobber_employer/routes/app_router.dart';
 import 'package:injectable/injectable.dart';
 import 'package:internet_connection_checker_plus/internet_connection_checker_plus.dart';
 
@@ -76,8 +75,8 @@ abstract class HJEngineModule {
     return InternetConnection();
   }
 
-  @lazySingleton
-  AppRouter appRouter() {
-    return AppRouter();
-  }
+  // @lazySingleton
+  // AppRouter appRouter() {
+  //   return AppRouter();
+  // }
 }

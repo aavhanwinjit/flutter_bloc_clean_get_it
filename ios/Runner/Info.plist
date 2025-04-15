@@ -7,7 +7,8 @@
 		<key>CFBundleDevelopmentRegion</key>
 		<string>$(DEVELOPMENT_LANGUAGE)</string>
 		<key>CFBundleDisplayName</key>
-		<string>Hoteljobber Employer</string>
+		<string>$(APP_DISPLAY_NAME)</string>
+		<!-- <string>Hoteljobber Employer</string> -->
 		<key>CFBundleExecutable</key>
 		<string>$(EXECUTABLE_NAME)</string>
 		<key>CFBundleIdentifier</key>
@@ -15,7 +16,8 @@
 		<key>CFBundleInfoDictionaryVersion</key>
 		<string>6.0</string>
 		<key>CFBundleName</key>
-		<string>HotelJobber Employer</string>
+		<string>$(APP_DISPLAY_NAME)</string>
+		<!-- <string>HotelJobber Employer</string> -->
 		<key>CFBundlePackageType</key>
 		<string>APPL</string>
 		<key>CFBundleShortVersionString</key>

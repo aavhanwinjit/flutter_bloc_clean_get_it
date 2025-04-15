@@ -1,14 +1,13 @@
-import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:go_router/go_router.dart';
 import 'package:hoteljobber_employer/core/dependency/injection.dart';
 import 'package:hoteljobber_employer/features/splash/data/models/launch_details/response/launch_details_response_model.dart';
 import 'package:hoteljobber_employer/features/splash/presentation/bloc/splash_bloc.dart';
 import 'package:hoteljobber_employer/features/splash/presentation/mixins/splash_screen_mixin.dart';
-import 'package:hoteljobber_employer/routes/app_router.dart';
+import 'package:hoteljobber_employer/routes/route_path.dart';
 import 'package:hoteljobber_employer/widgets/custom_scaffold.dart';
 
-@RoutePage()
 class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});
 
@@ -41,7 +40,7 @@ class _SplashViewState extends State<SplashView> with SplashScreenMixin {
 
             /// unsafe device - navigate to unsafe device screen
             unsafeDevice: () {
-              context.router.push(const UnsafeDeviceScreenRoute());
+              context.go(RoutePath.unsafeDeviceScreen.path);
             },
 
             /// if user is using an old version of the app, then show the app update dialog box
@@ -85,9 +84,9 @@ class _SplashViewState extends State<SplashView> with SplashScreenMixin {
     );
   }
 
-  Widget _errorStateUI() {
-    return const Center(
-      child: Text("Error"),
-    );
-  }
+  // Widget _errorStateUI() {
+  //   return const Center(
+  //     child: Text("Error"),
+  //   );
+  // }
 }

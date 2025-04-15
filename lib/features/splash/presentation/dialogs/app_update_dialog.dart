@@ -1,5 +1,5 @@
-import 'package:auto_route/auto_route.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:go_router/go_router.dart';
 import 'package:hoteljobber_employer/core/constants/strings/string_constants.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -39,7 +39,7 @@ class _AppUpdatePopUpState extends State<AppUpdatePopUp> {
             CupertinoDialogAction(
               child: const Text(StringConstants.skip),
               onPressed: () {
-                context.router.maybePop(true);
+                context.pop(true);
               },
             ),
         ],

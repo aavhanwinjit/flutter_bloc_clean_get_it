@@ -42,6 +42,21 @@ android {
             signingConfig = signingConfigs.debug
         }
     }
+
+    flavorDimensions "default"
+
+    productFlavors {
+        uat {
+            // dimension "app"
+            resValue "string", "app_name", "HotelJobber Employer UAT"
+            applicationId "com.hoteljobber.HoteljobberApp.uat"
+        }
+        prod {
+            // dimension "app"
+            resValue "string", "app_name", "HotelJobber Employer"
+            applicationId "com.hoteljobber.HoteljobberApp"
+        }
+    }
 }
 
 flutter {

@@ -10,6 +10,7 @@ PODS:
     - FlutterMacOS
   - device_info_plus (0.0.1):
     - Flutter
+  - DTTJailbreakDetection (0.4.0)
   - Firebase/Auth (11.4.0):
     - Firebase/CoreOnly
     - FirebaseAuth (~> 11.4.0)
@@ -128,6 +129,10 @@ PODS:
     - SDWebImageWebPCoder
   - flutter_keyboard_visibility (0.0.1):
     - Flutter
+  - flutter_native_splash (2.4.3):
+    - Flutter
+  - flutter_secure_storage (6.0.0):
+    - Flutter
   - fluttertoast (0.0.2):
     - Flutter
     - Toast
@@ -213,6 +218,9 @@ PODS:
     - nanopb/encode (= 3.30910.0)
   - nanopb/decode (3.30910.0)
   - nanopb/encode (3.30910.0)
+  - "no_screenshot (0.0.1+4)":
+    - Flutter
+    - ScreenProtectorKit (~> 1.3.1)
   - package_info_plus (0.4.5):
     - Flutter
   - path_provider_foundation (0.0.1):
@@ -223,17 +231,20 @@ PODS:
   - PromisesObjC (2.4.0)
   - PromisesSwift (2.4.0):
     - PromisesObjC (= 2.4.0)
-  - razorpay-pod (1.3.13)
-  - razorpay_flutter (1.1.10):
-    - Flutter
-    - razorpay-pod
   - RecaptchaInterop (100.0.0)
+  - safe_device (1.0.0):
+    - DTTJailbreakDetection
+    - Flutter
+  - ScreenProtectorKit (1.3.1)
   - SDWebImage (5.20.0):
     - SDWebImage/Core (= 5.20.0)
   - SDWebImage/Core (5.20.0)
   - SDWebImageWebPCoder (0.14.6):
     - libwebp (~> 1.0)
     - SDWebImage/Core (~> 5.17)
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
   - sms_autofill (0.0.1):
     - Flutter
   - sqflite_darwin (0.0.4):
@@ -255,16 +266,20 @@ DEPENDENCIES:
   - Flutter (from `Flutter`)
   - flutter_image_compress_common (from `.symlinks/plugins/flutter_image_compress_common/ios`)
   - flutter_keyboard_visibility (from `.symlinks/plugins/flutter_keyboard_visibility/ios`)
+  - flutter_native_splash (from `.symlinks/plugins/flutter_native_splash/ios`)
+  - flutter_secure_storage (from `.symlinks/plugins/flutter_secure_storage/ios`)
   - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
   - geocoding_ios (from `.symlinks/plugins/geocoding_ios/ios`)
   - google_maps_flutter_ios (from `.symlinks/plugins/google_maps_flutter_ios/ios`)
   - google_sign_in_ios (from `.symlinks/plugins/google_sign_in_ios/darwin`)
   - image_picker_ios (from `.symlinks/plugins/image_picker_ios/ios`)
   - location (from `.symlinks/plugins/location/ios`)
+  - no_screenshot (from `.symlinks/plugins/no_screenshot/ios`)
   - package_info_plus (from `.symlinks/plugins/package_info_plus/ios`)
   - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
   - pointer_interceptor_ios (from `.symlinks/plugins/pointer_interceptor_ios/ios`)
-  - razorpay_flutter (from `.symlinks/plugins/razorpay_flutter/ios`)
+  - safe_device (from `.symlinks/plugins/safe_device/ios`)
+  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/darwin`)
   - sms_autofill (from `.symlinks/plugins/sms_autofill/ios`)
   - sqflite_darwin (from `.symlinks/plugins/sqflite_darwin/darwin`)
   - url_launcher_ios (from `.symlinks/plugins/url_launcher_ios/ios`)
@@ -272,6 +287,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - AppAuth
+    - DTTJailbreakDetection
     - Firebase
     - FirebaseABTesting
     - FirebaseAppCheckInterop
@@ -300,8 +316,8 @@ SPEC REPOS:
     - nanopb
     - PromisesObjC
     - PromisesSwift
-    - razorpay-pod
     - RecaptchaInterop
+    - ScreenProtectorKit
     - SDWebImage
     - SDWebImageWebPCoder
     - Toast
@@ -329,6 +345,10 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/flutter_image_compress_common/ios"
   flutter_keyboard_visibility:
     :path: ".symlinks/plugins/flutter_keyboard_visibility/ios"
+  flutter_native_splash:
+    :path: ".symlinks/plugins/flutter_native_splash/ios"
+  flutter_secure_storage:
+    :path: ".symlinks/plugins/flutter_secure_storage/ios"
   fluttertoast:
     :path: ".symlinks/plugins/fluttertoast/ios"
   geocoding_ios:
@@ -341,14 +361,18 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/image_picker_ios/ios"
   location:
     :path: ".symlinks/plugins/location/ios"
+  no_screenshot:
+    :path: ".symlinks/plugins/no_screenshot/ios"
   package_info_plus:
     :path: ".symlinks/plugins/package_info_plus/ios"
   path_provider_foundation:
     :path: ".symlinks/plugins/path_provider_foundation/darwin"
   pointer_interceptor_ios:
     :path: ".symlinks/plugins/pointer_interceptor_ios/ios"
-  razorpay_flutter:
-    :path: ".symlinks/plugins/razorpay_flutter/ios"
+  safe_device:
+    :path: ".symlinks/plugins/safe_device/ios"
+  shared_preferences_foundation:
+    :path: ".symlinks/plugins/shared_preferences_foundation/darwin"
   sms_autofill:
     :path: ".symlinks/plugins/sms_autofill/ios"
   sqflite_darwin:
@@ -360,6 +384,7 @@ SPEC CHECKSUMS:
   AppAuth: 501c04eda8a8d11f179dbe8637b7a91bb7e5d2fa
   connectivity_plus: 4c41c08fc6d7c91f63bc7aec70ffe3730b04f563
   device_info_plus: bf2e3232933866d73fe290f2942f2156cdd10342
+  DTTJailbreakDetection: 5e356c5badc17995f65a83ed9483f787a0057b71
   Firebase: cf1b19f21410b029b6786a54e9764a0cacad3c99
   firebase_auth: 5defc54c120ef8d00a359ba787f1f3f521db59ce
   firebase_core: f8c5b220a8f9c436fdbd075ae321cef3d96ef181
@@ -385,6 +410,8 @@ SPEC CHECKSUMS:
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
   flutter_image_compress_common: ec1d45c362c9d30a3f6a0426c297f47c52007e3e
   flutter_keyboard_visibility: 0339d06371254c3eb25eeb90ba8d17dca8f9c069
+  flutter_native_splash: e8a1e01082d97a8099d973f919f57904c925008a
+  flutter_secure_storage: d33dac7ae2ea08509be337e775f6b59f1ff45f12
   fluttertoast: e9a18c7be5413da53898f660530c56f35edfba9c
   geocoding_ios: d7460f56e80e118d57678efe5c2cdc888739ff18
   Google-Maps-iOS-Utils: 66d6de12be1ce6d3742a54661e7a79cb317a9321
@@ -401,21 +428,23 @@ SPEC CHECKSUMS:
   location: d5cf8598915965547c3f36761ae9cc4f4e87d22e
   Mantle: c5aa8794a29a022dfbbfc9799af95f477a69b62d
   nanopb: fad817b59e0457d11a5dfbde799381cd727c1275
+  no_screenshot: 67d110f12466f4913b488803d4e498d03ef2889e
   package_info_plus: c0502532a26c7662a62a356cebe2692ec5fe4ec4
   path_provider_foundation: 2b6b4c569c0fb62ec74538f866245ac84301af46
   pointer_interceptor_ios: 508241697ff0947f853c061945a8b822463947c1
   PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
   PromisesSwift: 9d77319bbe72ebf6d872900551f7eeba9bce2851
-  razorpay-pod: def525ccff21db4382808c99503d863ad0640243
-  razorpay_flutter: 84b3bfd206ae9c9c2a9ba585524a1b3d8102b6c1
   RecaptchaInterop: 7d1a4a01a6b2cb1610a47ef3f85f0c411434cb21
+  safe_device: 4539eb6bdbeb4b61a763a51c4e73e6b37dea4e3d
+  ScreenProtectorKit: 83a6281b02c7a5902ee6eac4f5045f674e902ae4
   SDWebImage: 73c6079366fea25fa4bb9640d5fb58f0893facd8
   SDWebImageWebPCoder: e38c0a70396191361d60c092933e22c20d5b1380
+  shared_preferences_foundation: fcdcbc04712aee1108ac7fda236f363274528f78
   sms_autofill: c461043483362c3f1709ee76eaae6eb570b31686
   sqflite_darwin: 5a7236e3b501866c1c9befc6771dfd73ffb8702d
   Toast: 1f5ea13423a1e6674c4abdac5be53587ae481c4e
   url_launcher_ios: 5334b05cef931de560670eeae103fd3e431ac3fe
 
-PODFILE CHECKSUM: 1959d098c91d8a792531a723c4a9d7e9f6a01e38
+PODFILE CHECKSUM: cd61909f72e8fdbb2eaedf1eda5783945626d571
 
 COCOAPODS: 1.16.2

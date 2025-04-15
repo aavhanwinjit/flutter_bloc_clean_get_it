@@ -1,6 +1,5 @@
 import 'dart:io';
 
-import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:hoteljobber_employer/core/constants/color/color_constants.dart';
@@ -19,7 +18,6 @@ class UnsafeDeviceApp extends StatelessWidget {
   }
 }
 
-@RoutePage()
 class UnsafeDeviceScreen extends StatelessWidget {
   const UnsafeDeviceScreen({super.key});
 

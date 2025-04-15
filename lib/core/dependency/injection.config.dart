@@ -33,7 +33,6 @@ import 'package:hoteljobber_employer/features/splash/presentation/bloc/splash_bl
     as _i703;
 import 'package:hoteljobber_employer/models/app_config/app_config.dart'
     as _i491;
-import 'package:hoteljobber_employer/routes/app_router.dart' as _i927;
 import 'package:injectable/injectable.dart' as _i526;
 import 'package:internet_connection_checker_plus/internet_connection_checker_plus.dart'
     as _i161;
@@ -56,7 +55,6 @@ extension GetItInjectableX on _i174.GetIt {
     gh.lazySingleton<_i361.Dio>(() => hJEngineModule.getNetworkClient());
     gh.lazySingleton<_i161.InternetConnection>(
         () => hJEngineModule.getInternetConnection());
-    gh.lazySingleton<_i927.AppRouter>(() => hJEngineModule.appRouter());
     gh.lazySingleton<_i252.ApiService>(() => hJEngineModule.getApiService(
           gh<_i361.Dio>(),
           gh<_i491.AppConfig>(),

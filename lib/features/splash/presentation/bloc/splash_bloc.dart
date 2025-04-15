@@ -56,6 +56,7 @@ class SplashBloc extends Bloc<SplashEvent, SplashState> {
         }
 
         emit(SplashState.loaded(success));
+
         return;
       },
     );
